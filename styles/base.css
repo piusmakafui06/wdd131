@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
 }
 
 #course-title {
