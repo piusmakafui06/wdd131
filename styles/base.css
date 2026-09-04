@@ -8,6 +8,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 #course-title {
     display: block;
     text-align: center;
