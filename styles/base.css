@@ -71,6 +71,10 @@ main {
     padding: 2rem;
 }
 
+.three li {
+    padding: 0.5rem;
+}
+
 .card h2 {
     background-color: darkblue;
     color: white;
