@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Pius Ahiave, a homepage with the author's personal information.">
+    <meta name="author" content="Pius Ahiave">
+    <title>WDD 131 - Dynamic Web Fundamentals - Pius Ahiave</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Welcome to WDD 131</h1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Pius M. Ahiave</h1>
+        <section class="card first">
+            <h2>About Me</h2> 
+            <div class="one">
+                <img src="images/profile.webp" alt="My picture / profile picture" width="150">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus beatae quod unde, architecto voluptatibus velit repudiandae dignissimos ipsa inventore laboriosam corrupti, animi temporibus nulla numquam. Sit quas aliquid at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem voluptatibus quas sapiente rerum reprehenderit id aperiam quia molestiae eaque ipsa, voluptates tempore sit consequuntur cum odit aspernatur dicta porro. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, atque voluptatibus.</p>
+            </div>
+            <div class="two">
+                <h2>Accra, Ghana</h2>
+                <hr>
+                <br>
+                <img src="images/flag.webp" alt="Flag of Ghana" width="200">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi delectus praesentium eligendi ipsa, perspiciatis, vero labore est ab ratione dolores exercitationem. Cum voluptas expedita quas ipsum, enim quos hic voluptate.</p>
+            </div>
+        </section>
+        <section class="card second">
+            <h2>Web Dev Resources</h2>
+            <div class="three">
+                <ul>
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Pius Makafui Ahiave | Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

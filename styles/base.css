@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    background-color: dimgrey;
+    padding: .5rem
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    grid-column: 1/4;
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+}
+
+.card {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.first {
+    grid-column: 1/3;
+}
+
+.three {
+    padding: 2rem;
+}
+
+.card h2 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: .75rem;
+    margin: 0  0 1rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.one img {
+    float: right;
+    margin: 0 1rem 1rem;
+}
+
+.two img {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.two h2 {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.one, .two {
+    padding: 1rem;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    padding: .2rem;
+}
+
+.highlight {
+    color: yellow;
+}
