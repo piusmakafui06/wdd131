@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page that displays information about my country">
+    <meta name="author" content="Pius Ahiave">
+    <title>Country Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place-medium.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Ghana</h1>
+        <nav></nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/my-country-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/my-country-medium.webp" media="(min-width: 500px)">
+                <img src="images/my-country-small.webp" alt="Statue of Dr. Kwame Nkrumah" width="500" height="250">
+            </picture>
+        </div>
+        <div id="one" class="card">
+            <table>
+                <thead>
+                    <tr>
+                        <th><h2>Data</h2></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="label">Area:</td>
+                        <td class="value">239,567 sq km</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Population:</td>
+                        <td class="value">30,832,019</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Capital:</td>
+                        <td class="value">Accra</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Languages:</td>
+                        <td class="value">Twi, English</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Currency:</td>
+                        <td class="value">Ghana Cedi</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Time Zone:</td>
+                        <td class="value">GMT</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Calling Code:</td>
+                        <td class="value">+233</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Internet TLD:</td>
+                        <td class="value">.gh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="two" class="card">
+            <table>
+                <thead>
+                    <tr>
+                        <th><h2 id="weather">Weather</h2></th>
+                    </tr>
+                    <tr>
+                        <th><img src="images/partly-cloudy.svg" alt="Partly cloudy weather condition"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="label">Temperature:</td>
+                        <td class="value">25°C</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Conditions:</td>
+                        <td class="value">Mostly Cloudy</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Wind:</td>
+                        <td class="value">21km/h</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Wind Chill:</td>
+                        <td id="windchill" class="value"></td>
+                    </tr>
+                </tbody>
+            </table> 
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Pius Makafui Ahiave | Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
