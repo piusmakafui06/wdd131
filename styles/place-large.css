@@ -1,4 +1,10 @@
 @media screen and (min-width: 1000px){
+    :root {
+        --primary-color: white;
+        --secondary-color: green;
+        --tertiary-color: yellow;
+        }
+
     .hero {
         position: relative;
         margin: 0 auto;
@@ -14,8 +20,8 @@
     .card h2 {
         
         text-align: left;
-        background-color: green;
-        color: white;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
         width: 200px;
         padding: .5rem;
         margin: 0 auto;
