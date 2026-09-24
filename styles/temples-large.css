@@ -1,20 +1,25 @@
 @media screen and (min-width: 500px) {
+
     h1 {
         font-size: 2rem;
         grid-column: 1/4;
     }
 
-    .list {
+    .navigation {
         display: flex;
     }
 
-    .list li {
+    .navigation li {
         display: block;
         flex: 1 1 100%;
     }
 
-    .list a {
+    .navigation a {
         text-align: center;
+    }
+
+    #menu {
+        display: none;
     }
 
     main {
@@ -23,9 +28,5 @@
         place-items: center;
         gap: 1rem;
         margin: 0 auto;
-    }
-
-    #hamburger {
-        display: none;
     }
 }
