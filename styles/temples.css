@@ -43,6 +43,10 @@ main {
     text-align: center;
 }
 
+nav {
+    display: flex;
+}
+
 #menu {
     display: block;
     font-size: 2rem;
