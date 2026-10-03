@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review; is a page with a form that displays various products for review and submission.">
+    <meta name="author" content="Pius Ahiave">
+    <title>Product Review</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Product Review</h1>
+        <form method="get" action="review.html">
+            <div>
+                <label for="product">Product Name</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Choose a Product ... &#9662;</option>
+                </select>
+            </div>
+            <p id="sub">Overall Rating</p>
+            <div class="stars">
+                <input type="radio" id="fivestar" name="rating" value="5" required><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="rating" value="4" required><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="rating" value="3" required><label for="threestar"></label>
+                <input type="radio" id="twostar" name="rating" value="2" required><label for="twostar"></label>
+                <input type="radio" id="onestar" name="rating" value="1" required><label for="onestar"></label>
+            </div>
+            <div>
+                <label for="date">Date of Installation</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="check">
+                <p>Which features did you find useful in the product?<br><span class="edit">(Check all that apply)</span></p>
+                <label for="durability"><input type="checkbox" id="durability" name="durability" value="durability">Durability</label>
+                <label for="use"><input type="checkbox" id="use" name="use" value="use">Ease of Use</label>
+                <label for="performance"><input type="checkbox" id="performance" name="performance" value="performance">Performance</label>
+                <label for="design"><input type="checkbox" id="design" name="design" value="design">Design</label>
+            </div>
+            <div>
+                <label for="review">Written Review<span class="highlighted"> (Optional)</span></label>
+                <textarea id="review" name="review"></textarea>
+            </div>
+            <div>
+                <label for="name">Your Name<span class="highlighted"> (Optional)</span></label>
+                <input type="text" id="name" name="name">
+            </div>
+            <button type="submit" value="review.html">Post Review</button>     
+        </form>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Pius Makafui Ahiave | Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
