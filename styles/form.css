@@ -104,15 +104,6 @@ input[type="date"], select {
     appearance: none;
 }
 
-#first {
-    margin-left: 15px;
-}
-
-select {
-    display: block;
-    width: 335px;
-}
-
 input[type="checkbox"] {
     width: 1.3rem;
     height: 1.3rem;

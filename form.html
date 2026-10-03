@@ -19,10 +19,12 @@
     <main>
         <h1>Product Review</h1>
         <form method="get" action="review.html">
-            <label for="product" id="first">Product Name</label>
-            <select id="product" name="product" required>
-                <option value="" disabled selected>Choose a Product ... &#9662;</option>
-            </select>
+            <div>
+                <label for="product">Product Name</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Choose a Product ... &#9662;</option>
+                </select>
+            </div>
             <p id="sub">Overall Rating</p>
             <div class="stars">
                 <input type="radio" id="fivestar" name="rating" value="5" required><label for="fivestar"></label>
