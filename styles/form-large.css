@@ -7,6 +7,10 @@
         width: 535px;
     }
 
+    select {
+        width: 535px;
+    }
+
     #confirm {
         display: flex;
         flex-direction: column;
