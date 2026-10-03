@@ -1,0 +1,16 @@
+@media screen and (min-width: 500px) {
+    form {
+        max-width: 600px;
+    }
+
+    button {
+        width: 535px;
+    }
+
+    #confirm {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 400px;
+    }
+}
